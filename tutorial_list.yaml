@@ -1071,3 +1071,18 @@
   deploy_gui: not-defined
   language: en
   technology: software-engineering
+- name: ROSCon 2025 Intro to ROS Workshop
+  intro: https://github.com/kscottz/turtlebot4_docker
+  doc: https://docs.google.com/presentation/d/1pMlogpbT0dHpvnoLzJgjlI6LeAo7bHHDb8AAiMo4-3g/edit?usp=sharing
+  repo: https://github.com/kscottz/turtlebot4_docker
+  stack: basics
+  organization: OSRF
+  governance: community
+  country: US
+  maintainer: @kscottz
+  distro: jazzy
+  deploy_docker: rocker
+  deploy_gui: x11forward
+  language: en
+  technology: software-engineering
+  robot: turtlebot4
